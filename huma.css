@@ -1,0 +1,150 @@
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+section{
+    display: flex;
+}
+#first{
+    background-color: #2459c2;
+    width: 50%;
+    height: 100vh;
+}
+#second{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    background-color: #00095e;
+}
+#container{
+    position: absolute;
+    width: 1065px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    top: 125px;
+    right: 150px;
+    border-radius: 5px;
+}
+#contact{
+    position: absolute;
+    width: 350px;
+    height: 420px;
+    background-color: #00095e;
+    top: 165px;
+    right: 1000px;
+    border-radius: 5px;
+}
+
+#text{
+    color: #ffff;
+    font-size: 25px;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.info{
+    display: flex;
+    margin-left: 20px;
+}
+ #contact p{
+    color: #ffff;
+}
+.social-ikon li{
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 80px 25px ;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+.social-ikon li :hover{
+    transform: translateY(-30%);
+}
+#message{
+    margin-left: 270px;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-weight: 600;
+    color: #00095e;
+}
+.inputbox{
+    margin-left: 270px;
+}
+#container .formbox{
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    width: 50%;
+}
+#container .formbox .inputbox{
+    position: relative;
+    margin-bottom: 30px; 
+}
+#container .formbox .inputbox .white1{
+    width: 47%;
+}
+#container .formbox .inputbox .white2{
+    width: 100%;
+}
+#button{
+    position: absolute;
+    background-color: #00095e;
+    width: 120px;
+    margin-left:900px;
+    margin-top: 465px;
+    display: flex;
+}
+.formbox2{
+    text-align: right;
+}
+#container .formbox .inputbox input,
+#container .formbox .inputbox textarea{
+    width: 100%;
+    resize: none;
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    transform: translateY(-20);
+}
+#container .formbox .inputbox textarea{
+    height: 60px;
+}
+#container .formbox .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0px;
+    pointer-events: none;
+    font-size: 17px;
+    transition: 0.4s;
+    font-weight: 200;
+}   
+#container .formbox .inputbox input:focus ~ span,
+#container .f ormbox .inputbox input:valid ~ span,
+#container .formbox .inputbox textarea:focus ~ span,
+#container .formbox .inputbox textarea :valid~ span{
+    transform: translateY(-20px);
+    font-size: medium;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #2459c2;
+}
+#button [type="submit"]{
+    cursor: pointer;
+    background-color: #00095e;
+    color: white;
+    height: 40px;
+    width: 200px;
+    left: 20px;
+}
+#logo{
+    position: absolute;
+    margin-left:950px;
+    margin-top: 265px;
+}
